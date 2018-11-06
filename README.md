@@ -1,0 +1,2 @@
+Gbili Height matcher is used in Divi. When inserting more than 1 column in a row. And using the image module in each column. If the images aspect ratio differs, then Divi will display both images at different heights in order to match a percentage of the true image size. 
+What this plugin does is to force the height of all images to be the same, while keeping the aspect ratio.
