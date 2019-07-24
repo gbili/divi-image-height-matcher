@@ -1,6 +1,5 @@
 (function ($, htmlRowClassName) {
     //TODO this.width, this.height should use attr thing
-    //TODO make sure it works for more than two images
     //if on is instance of neighbours, there will be a problem with attr thing, try moving it somewhere else
     var DirectNeighbours = function (element) {
 
