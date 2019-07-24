@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: Gbili in-row images Height Matcher in Divi theme
+Plugin Name: Gbili Image Height Matcher
 Plugin URI: http://wordpress.org/extend/plugins/gbili-height-matcher/
-Description: Matches height of images in same row keeping their aspect ratios
+Description: Matches height of images in same row keeping their aspect ratios in Divi themes
 Author: Guillermo Pages
 Version: 0.1
-Author URI: http://lespagesweb.ch/
+Author URI: http://guillermo.at/
 */
 
 /**
