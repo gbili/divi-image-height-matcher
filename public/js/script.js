@@ -1,11 +1,11 @@
-(function ($) {
+(function ($, htmlRowClassName) {
     //TODO this.width, this.height should use attr thing
     //TODO make sure it works for more than two images
     //if on is instance of neighbours, there will be a problem with attr thing, try moving it somewhere else
     var DirectNeighbours = function (element) {
 
-        this.one = null; 
-        this.two = null; 
+        this.one = null;
+        this.two = null;
 
         this.canWorkWith = function (element) {
             if (arguments.length === 0) {
@@ -155,11 +155,10 @@
     }
 
     $(document).ready(function(){
-        $('.et_pb_row').each(function (index) {
+        $(htmlRowClassName).each(function (index) {
             $(this).imagesLoaded(function (elem) {
                 return treatImagesInsideRow(elem.images);
             });
         });
     });
-
-})(jQuery.noConflict());
+})(jQuery.noConflict(), '.et_pb_row');
